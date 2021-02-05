@@ -10,14 +10,28 @@ html {
   background-size: cover; */
 }
 
+.content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.container{
+  background-color: #fdf5ec; 
+  height: fit-content;
+  width: auto;
+ }
+
+ 
 h1{
   color:#313131;
   font-size: 3rem;
 }
 
 img{
-  max-height: 300px;
-  max-width: 300px;
+  max-height: 400px;
+  max-width: 400px;
   margin: 20px 0;
 }
 
@@ -26,14 +40,13 @@ hr{
   opacity: 100;
   max-width: 65px;
   margin: auto;
-  margin-top: 30px;
-  margin-bottom: 30px;
 }
 
 .btn{
   font-weight: 700;
   border-radius: 300px;
   max-width: 250px;
+  margin: 10px 0 20px 0;
 }
 
 .btn-primary{
@@ -49,4 +62,5 @@ hr{
 .btn-xl{
   padding: 1rem 2rem;
 }
+
 
