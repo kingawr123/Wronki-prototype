@@ -28,13 +28,13 @@ h1{
 }
 
 img{
-  max-height: 400px;
-  max-width: 400px;
+  max-height: 350px;
+  max-width: 350px;
   margin: 20px 0;
 }
 
 hr{
-  border-top: 3px solid #755510ec;
+  border-top: 3px solid #efbd89;
   opacity: 100;
   max-width: 65px;
   margin: auto;
@@ -48,13 +48,13 @@ hr{
 }
 
 .btn-primary{
-  background-color: #755510ec;
-  border-color: #755510ec;
+  background-color: #efbd89;
+  border-color: #efbd89;
 }
 
 .btn-primary:hover{
-  background-color: #6d4e0d;
-  border-color: #6d4e0d;
+  background-color: #e0a362;
+  border-color: #e0a362;
 }
 
 .btn-xl{
