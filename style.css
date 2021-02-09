@@ -4,7 +4,40 @@ html {
   height: 100%;
   color:#656161;
   font-family: 'Crimson Pro', serif;
-  overflow: hidden;
+
+}
+
+nav{
+  position: absolute;
+  width: 100%;
+  padding: 20px 0;
+  background-color: white;
+  border-bottom: 0.2px solid #b3b1b1;
+}
+
+nav ul{
+  list-style: none;
+  position: relative;
+  height: auto;
+  width: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5em;
+  padding: 0;
+  margin: 0;
+}
+
+nav li{
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid #656161;
+}
+
+nav li:hover{
+  transform: scale(1.2);
+  transition: ease;
 }
 
 .content{
@@ -18,6 +51,8 @@ html {
   background-color: #fdf5ec; 
   height: fit-content;
   width: auto;
+  display: flex;
+  flex-direction: column;
   padding: 50px 0 50px 0;
  }
 
@@ -63,3 +98,17 @@ hr{
 }
 
 
+/* For Mobile */
+@media screen and (max-width: 600px) {
+
+  nav ul{
+    font-size: 0.8em;
+  };
+}
+
+/* For Tablets */
+@media screen and (min-width: 540px) and (max-width: 780px) {
+  nav ul{
+    font-size: 1.2em;
+  };
+}
